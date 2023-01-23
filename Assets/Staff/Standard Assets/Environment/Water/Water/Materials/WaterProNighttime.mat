@@ -50,9 +50,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ReflDistort: 0.19
-    - _RefrDistort: 0.92
-    - _WaveScale: 0.02
+    - _ReflDistort: 0.13
+    - _RefrDistort: 1.22
+    - _WaveScale: 0.059
     m_Colors:
     - WaveSpeed: {r: 9, g: 4.5, b: -8, a: -3.5}
     - _BumpMap_ST: {r: 1, g: 1, b: 0, a: 0}
