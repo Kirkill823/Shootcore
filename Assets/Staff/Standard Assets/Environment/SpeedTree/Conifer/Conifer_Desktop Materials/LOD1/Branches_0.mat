@@ -14,6 +14,10 @@ Material:
   - EFFECT_BUMP
   - EFFECT_HUE_VARIATION
   - GEOM_TYPE_BRANCH
+  - _ALPHATEST_ON
+  - _DISABLE_SSR_TRANSPARENT
+  - _DOUBLESIDED_ON
+  - _WINDQUALITY_BEST
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
