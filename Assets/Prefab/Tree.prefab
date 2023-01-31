@@ -116,12 +116,14 @@ Material:
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2475
   stringTagMap:
+    MotionVector: User
     RenderType: TransparentCutout
   disabledShaderPasses:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
   - TransparentBackface
   - RayTracingPrepass
+  - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -267,7 +269,7 @@ MonoBehaviour:
   m_Name: Tree Data
   m_EditorClassIdentifier: 
   _uniqueID: 3766
-  materialHash: 26a74aba75eed3196de5ba1a55228317-730329088
+  materialHash: dcab9cff811f7ccf38308ae90b550245-730329088
   root:
     _uniqueID: 1
     seed: 313734

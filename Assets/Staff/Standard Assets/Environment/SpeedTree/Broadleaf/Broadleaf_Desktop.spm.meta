@@ -97,7 +97,7 @@ SpeedTreeImporter:
     enableBump: 1
     enableHue: 1
     enableSubsurface: 0
-    windQuality: 4
+    windQuality: 2
   - height: 0.25024515
     castShadows: 1
     receiveShadows: 1
@@ -131,7 +131,7 @@ SpeedTreeImporter:
   fadeOutWidth: 0.25
   scaleFactor: 0.3048
   materialVersion: 3
-  materialLocation: 0
+  materialLocation: 1
   fileIDType: 0
   userData: 
   assetBundleName: 
