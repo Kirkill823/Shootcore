@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 262.11304, g: 324.75684, b: 429.81006, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -955,16 +955,16 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 3c56c39af73e96447ab3997a4d7c558f, type: 2}
-  m_TreeDistance: 1505
-  m_TreeBillboardDistance: 838
-  m_TreeCrossFadeLength: 122
-  m_TreeMaximumFullLODCount: 1760
+  m_TreeDistance: 2171
+  m_TreeBillboardDistance: 855
+  m_TreeCrossFadeLength: 129
+  m_TreeMaximumFullLODCount: 2843
   m_DetailObjectDistance: 250
-  m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 33
-  m_SplatMapDistance: 501
+  m_DetailObjectDensity: 0.717
+  m_HeightmapPixelError: 27
+  m_SplatMapDistance: 450
   m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 0
+  m_ShadowCastingMode: 1
   m_DrawHeightmap: 1
   m_DrawInstanced: 1
   m_DrawTreesAndFoliage: 1
@@ -1152,14 +1152,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357832478}
-  m_LocalRotation: {x: 0.022517825, y: -0.97450906, z: 0.19158995, w: 0.11453513}
-  m_LocalPosition: {x: 1529.9, y: 118.4, z: 1729.2}
+  m_LocalRotation: {x: 0, y: -0.9931636, z: 0, w: 0.1167315}
+  m_LocalPosition: {x: 1529.9, y: 115, z: 1742.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 22.245, y: -166.593, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -166.593, z: 0}
 --- !u!114 &1357832482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1968,7 +1968,7 @@ TerrainCollider:
   m_GameObject: {fileID: 2124070213}
   m_Material: {fileID: 0}
   m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: a8ed4883b3f55ab4eb30ccc57bf012ce, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 3c56c39af73e96447ab3997a4d7c558f, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &2124070216
 Terrain:
